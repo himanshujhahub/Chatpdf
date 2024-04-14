@@ -6,27 +6,19 @@ This is a fun Python project that allows you to chat with a chatbot about the PD
 
 To run this project, please follow the steps below:
 
-1. Clone the repository:
-
-```shell
-git clone https://github.com/sudan94/chat-pdf-hugginface.git
-cd chat-pdf-hugginface
-```
-
-2. Create and activate a virtual environment (optional but recommended):
+Create and activate a virtual environment (optional but recommended):
 
 ```shell
 python3 -m venv venv
 source venv/bin/activate
 ```
 
-3. Install the dependencies from the `requirements.txt` file:
+Install the dependencies from the `requirements.txt` file:
 
 ```shell
 pip install -r requirements.txt
 ```
-
-4. Add your HUGGINGFACEHUB_API_TOKEN in `.env.example` file and rename the file to `.env`
+Add your HUGGINGFACEHUB_API_TOKEN in `.env.example` file and rename the file to `.env`
 
 ## Running the Project
 
@@ -39,8 +31,4 @@ streamlit run appy.py
 ```
 
 This will start the Streamlit server and open the application in your default web browser..
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
