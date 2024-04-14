@@ -32,3 +32,10 @@ streamlit run appy.py
 
 This will start the Streamlit server and open the application in your default web browser..
 
+
+when virtual env is not disabled by system 
+``` shell
+ Set-ExecutionPolicy Unrestricted -Scope Process
+ .\venv\Scripts\Activate.ps1
+ ```
+
